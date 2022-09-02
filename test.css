@@ -1,0 +1,21 @@
+body{
+    display: flex;
+}
+
+/* .one{
+    background-color: red;
+    flex:1;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: green;
+} */
+
+body div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+  }
