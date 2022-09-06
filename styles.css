@@ -2,6 +2,11 @@
 
 .quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    flex-direction: column;
 }
 
 .signup {
@@ -23,6 +28,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    /* overflow: hidden; */
     font-family: Roboto;
 }
 
@@ -30,17 +36,22 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 12px 24px;
+    padding-left: 520px;
+    padding-right: 550px;
 }
 
 .header-bottom {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 24px;
+    gap: 100px;
 }
 
 .image {
     background-color: lightgrey;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     margin: 24px;
     padding: 0px;
@@ -64,6 +75,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 48px;
 }
 
 .logo {
@@ -115,13 +127,70 @@ h1 {
     max-width: 200px;
   }
 
-  .strip {
+.strip {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.strip img {
+width: 100px;
+height: 100px
+}
+
+.quote {
+font-size: 36px;
+color: #1f2937;
+font-style: italic;
+width: 1000px;
+}
+
+.author {
+font-size: 32px;
+font-weight: 900;
+padding-left: 500px;
+}
+
+.signup-section {
     display: flex;
     justify-content: center;
-    gap: 200px;
-  }
+    align-items: center;
+    padding: 50px;
+}
 
-  .strip img {
-    width: 100px;
-    height: 100px
-  }
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 150px;
+    border-radius: 12px;
+    margin: 42px;
+    gap: 200px;
+}
+
+.signup h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.signup-text {
+    color: #e5e7eb;
+    border: #e5e7eb;
+}
+
+.signup-button button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 8px 28px;
+    border-radius: 8px;
+    border: 0;
+    margin: 0;
+    border: 2px solid #e5e7eb;
+}
+
+.random-info {
+    margin-bottom: 100px;
+}
